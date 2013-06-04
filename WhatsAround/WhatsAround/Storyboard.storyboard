@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ocj-cO-29q">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Map View Controller-->
+        <scene sceneID="qjd-dC-JRC">
+            <objects>
+                <viewController id="Ocj-cO-29q" customClass="WARMapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xj5-e5-uhe">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LZo-2t-chj"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LZo-2t-chj" firstAttribute="top" secondItem="Xj5-e5-uhe" secondAttribute="top" type="default" id="0c3-jz-6OF"/>
+                            <constraint firstItem="LZo-2t-chj" firstAttribute="bottom" secondItem="Xj5-e5-uhe" secondAttribute="bottom" type="default" id="6B3-js-ePL"/>
+                            <constraint firstItem="LZo-2t-chj" firstAttribute="leading" secondItem="Xj5-e5-uhe" secondAttribute="leading" type="default" id="994-hb-Iab"/>
+                            <constraint firstItem="LZo-2t-chj" firstAttribute="trailing" secondItem="Xj5-e5-uhe" secondAttribute="trailing" type="default" id="Cdo-pd-Mjc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="LZo-2t-chj" id="N3g-bh-J8c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJ4-eP-eax" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="455" y="97"/>
+        </scene>
+    </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

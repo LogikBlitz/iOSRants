@@ -24,6 +24,12 @@
 		E9CE2139175E5905006214EC /* WhatsAroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE2138175E5905006214EC /* WhatsAroundTests.m */; };
 		E9F95A81175E5E40009C25D7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F95A80175E5E40009C25D7 /* Storyboard.storyboard */; };
 		E9F95A83175E5E59009C25D7 /* Storyboard_Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F95A82175E5E59009C25D7 /* Storyboard_Pad.storyboard */; };
+		E9F95A86175E60AB009C25D7 /* WARMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F95A85175E60AB009C25D7 /* WARMapViewController.m */; };
+		E9F95A87175E60AB009C25D7 /* WARMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F95A85175E60AB009C25D7 /* WARMapViewController.m */; };
+		E9F95A89175E6210009C25D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F95A88175E6210009C25D7 /* MapKit.framework */; };
+		E9F95A8B175E6218009C25D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F95A8A175E6218009C25D7 /* SystemConfiguration.framework */; };
+		E9F95A8D175E6226009C25D7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F95A8C175E6226009C25D7 /* MobileCoreServices.framework */; };
+		E9F95A8F175E622E009C25D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F95A8E175E622E009C25D7 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,12 @@
 		E9CE2138175E5905006214EC /* WhatsAroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsAroundTests.m; sourceTree = "<group>"; };
 		E9F95A80175E5E40009C25D7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		E9F95A82175E5E59009C25D7 /* Storyboard_Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Pad.storyboard; sourceTree = "<group>"; };
+		E9F95A84175E60AB009C25D7 /* WARMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARMapViewController.h; sourceTree = "<group>"; };
+		E9F95A85175E60AB009C25D7 /* WARMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARMapViewController.m; sourceTree = "<group>"; };
+		E9F95A88175E6210009C25D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E9F95A8A175E6218009C25D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E9F95A8C175E6226009C25D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E9F95A8E175E622E009C25D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F26B6D02BC44488EBCA32DBB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -67,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F95A8F175E622E009C25D7 /* CoreLocation.framework in Frameworks */,
+				E9F95A8D175E6226009C25D7 /* MobileCoreServices.framework in Frameworks */,
+				E9F95A8B175E6218009C25D7 /* SystemConfiguration.framework in Frameworks */,
+				E9F95A89175E6210009C25D7 /* MapKit.framework in Frameworks */,
 				E9CE210E175E5905006214EC /* UIKit.framework in Frameworks */,
 				E9CE2110175E5905006214EC /* Foundation.framework in Frameworks */,
 				E9CE2112175E5905006214EC /* CoreGraphics.framework in Frameworks */,
@@ -112,6 +128,10 @@
 		E9CE210C175E5905006214EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E9F95A8E175E622E009C25D7 /* CoreLocation.framework */,
+				E9F95A8C175E6226009C25D7 /* MobileCoreServices.framework */,
+				E9F95A8A175E6218009C25D7 /* SystemConfiguration.framework */,
+				E9F95A88175E6210009C25D7 /* MapKit.framework */,
 				E9CE210D175E5905006214EC /* UIKit.framework */,
 				E9CE210F175E5905006214EC /* Foundation.framework */,
 				E9CE2111175E5905006214EC /* CoreGraphics.framework */,
@@ -184,6 +204,8 @@
 		E9F95A7B175E5CDC009C25D7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E9F95A84175E60AB009C25D7 /* WARMapViewController.h */,
+				E9F95A85175E60AB009C25D7 /* WARMapViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -365,6 +387,7 @@
 			files = (
 				E9CE211A175E5905006214EC /* main.m in Sources */,
 				E9CE211E175E5905006214EC /* WARAppDelegate.m in Sources */,
+				E9F95A86175E60AB009C25D7 /* WARMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9CE2139175E5905006214EC /* WhatsAroundTests.m in Sources */,
+				E9F95A87175E60AB009C25D7 /* WARMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
