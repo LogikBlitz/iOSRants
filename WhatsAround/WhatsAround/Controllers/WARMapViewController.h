@@ -12,7 +12,6 @@
 
 @interface WARMapViewController : UIViewController
 
-
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 

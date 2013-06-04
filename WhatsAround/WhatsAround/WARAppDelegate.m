@@ -12,22 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    UIStoryboard *appropiateStoryboard = [self storyboard];
-    self.window.rootViewController = [appropiateStoryboard instantiateInitialViewController];
     return YES;
 }
 
-- (UIStoryboard *)storyboard {
-    NSString *storyboardName = @"Storyboard";
-    if ([self isIPad])
-        storyboardName = [storyboardName stringByAppendingString:@"_Pad"];
-    
-    return [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-}
-
-- (BOOL)isIPad {
-    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

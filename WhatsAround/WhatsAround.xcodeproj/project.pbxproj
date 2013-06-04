@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1FABA2A382DA47F38F7D373E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B6D02BC44488EBCA32DBB /* libPods.a */; };
+		E93E0032175E76010018452D /* WARVenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E0031175E76010018452D /* WARVenueAnnotation.m */; };
+		E93E0033175E76010018452D /* WARVenueAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E93E0031175E76010018452D /* WARVenueAnnotation.m */; };
+		E9C0A3A2175E6C2700BA0BD7 /* FSQFoursquareAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C0A39F175E6C2700BA0BD7 /* FSQFoursquareAPIClient.m */; };
+		E9C0A3A3175E6C2700BA0BD7 /* FSQVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C0A3A1175E6C2700BA0BD7 /* FSQVenue.m */; };
 		E9CE210E175E5905006214EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CE210D175E5905006214EC /* UIKit.framework */; };
 		E9CE2110175E5905006214EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CE210F175E5905006214EC /* Foundation.framework */; };
 		E9CE2112175E5905006214EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CE2111175E5905006214EC /* CoreGraphics.framework */; };
@@ -44,6 +48,12 @@
 
 /* Begin PBXFileReference section */
 		DD032703FA614D9D875A3462 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		E93E0030175E76010018452D /* WARVenueAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WARVenueAnnotation.h; sourceTree = "<group>"; };
+		E93E0031175E76010018452D /* WARVenueAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WARVenueAnnotation.m; sourceTree = "<group>"; };
+		E9C0A39E175E6C2700BA0BD7 /* FSQFoursquareAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQFoursquareAPIClient.h; sourceTree = "<group>"; };
+		E9C0A39F175E6C2700BA0BD7 /* FSQFoursquareAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQFoursquareAPIClient.m; sourceTree = "<group>"; };
+		E9C0A3A0175E6C2700BA0BD7 /* FSQVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSQVenue.h; sourceTree = "<group>"; };
+		E9C0A3A1175E6C2700BA0BD7 /* FSQVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSQVenue.m; sourceTree = "<group>"; };
 		E9CE210A175E5905006214EC /* WhatsAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CE210D175E5905006214EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E9CE210F175E5905006214EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -197,6 +207,8 @@
 		E9F95A7A175E5CCA009C25D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E93E0030175E76010018452D /* WARVenueAnnotation.h */,
+				E93E0031175E76010018452D /* WARVenueAnnotation.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,6 +232,10 @@
 		E9F95A7D175E5D00009C25D7 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				E9C0A39E175E6C2700BA0BD7 /* FSQFoursquareAPIClient.h */,
+				E9C0A39F175E6C2700BA0BD7 /* FSQFoursquareAPIClient.m */,
+				E9C0A3A0175E6C2700BA0BD7 /* FSQVenue.h */,
+				E9C0A3A1175E6C2700BA0BD7 /* FSQVenue.m */,
 			);
 			name = Lib;
 			path = WhatsAround/Lib;
@@ -388,6 +404,9 @@
 				E9CE211A175E5905006214EC /* main.m in Sources */,
 				E9CE211E175E5905006214EC /* WARAppDelegate.m in Sources */,
 				E9F95A86175E60AB009C25D7 /* WARMapViewController.m in Sources */,
+				E9C0A3A2175E6C2700BA0BD7 /* FSQFoursquareAPIClient.m in Sources */,
+				E9C0A3A3175E6C2700BA0BD7 /* FSQVenue.m in Sources */,
+				E93E0032175E76010018452D /* WARVenueAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +416,7 @@
 			files = (
 				E9CE2139175E5905006214EC /* WhatsAroundTests.m in Sources */,
 				E9F95A87175E60AB009C25D7 /* WARMapViewController.m in Sources */,
+				E93E0033175E76010018452D /* WARVenueAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
