@@ -22,6 +22,8 @@
 		E9CE212E175E5905006214EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CE210F175E5905006214EC /* Foundation.framework */; };
 		E9CE2136175E5905006214EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9CE2134175E5905006214EC /* InfoPlist.strings */; };
 		E9CE2139175E5905006214EC /* WhatsAroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CE2138175E5905006214EC /* WhatsAroundTests.m */; };
+		E9F95A81175E5E40009C25D7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F95A80175E5E40009C25D7 /* Storyboard.storyboard */; };
+		E9F95A83175E5E59009C25D7 /* Storyboard_Pad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F95A82175E5E59009C25D7 /* Storyboard_Pad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		E9CE2135175E5905006214EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9CE2137175E5905006214EC /* WhatsAroundTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsAroundTests.h; sourceTree = "<group>"; };
 		E9CE2138175E5905006214EC /* WhatsAroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsAroundTests.m; sourceTree = "<group>"; };
+		E9F95A80175E5E40009C25D7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E9F95A82175E5E59009C25D7 /* Storyboard_Pad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_Pad.storyboard; sourceTree = "<group>"; };
 		F26B6D02BC44488EBCA32DBB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,10 +90,10 @@
 		E9CE2101175E5904006214EC = {
 			isa = PBXGroup;
 			children = (
-				E9F95A7E175E5D13009C25D7 /* Resources */,
 				E9F95A7D175E5D00009C25D7 /* Lib */,
 				E9CE2113175E5905006214EC /* WhatsAround */,
 				E9CE2131175E5905006214EC /* WhatsAroundTests */,
+				E9F95A7E175E5D13009C25D7 /* Resources */,
 				E9CE210C175E5905006214EC /* Frameworks */,
 				E9CE210B175E5905006214EC /* Products */,
 				DD032703FA614D9D875A3462 /* Pods.xcconfig */,
@@ -126,6 +130,8 @@
 				E9F95A7A175E5CCA009C25D7 /* Views */,
 				E9CE211C175E5905006214EC /* WARAppDelegate.h */,
 				E9CE211D175E5905006214EC /* WARAppDelegate.m */,
+				E9F95A80175E5E40009C25D7 /* Storyboard.storyboard */,
+				E9F95A82175E5E59009C25D7 /* Storyboard_Pad.storyboard */,
 				E9CE2114175E5905006214EC /* Supporting Files */,
 			);
 			path = WhatsAround;
@@ -293,6 +299,8 @@
 				E9CE2120175E5905006214EC /* Default.png in Resources */,
 				E9CE2122175E5905006214EC /* Default@2x.png in Resources */,
 				E9CE2124175E5905006214EC /* Default-568h@2x.png in Resources */,
+				E9F95A81175E5E40009C25D7 /* Storyboard.storyboard in Resources */,
+				E9F95A83175E5E59009C25D7 /* Storyboard_Pad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

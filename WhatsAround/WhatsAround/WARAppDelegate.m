@@ -12,11 +12,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    UIStoryboard *appropiateStoryboard = [self storyboard];
+    self.window.rootViewController = [appropiateStoryboard instantiateInitialViewController];
     return YES;
+}
+
+- (UIStoryboard *)storyboard {
+    NSString *storyboardName = @"Storyboard";
+    if ([self isIPad])
+        storyboardName = [storyboardName stringByAppendingString:@"_Pad"];
+    
+    return [UIStoryboard storyboardWithName:storyboardName bundle:nil];
+}
+
+- (BOOL)isIPad {
+    return (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
