@@ -42,6 +42,7 @@
                   @"query" : searchTerm,
                   @"intent" : @"browse"
                 };
+    
     [self getPath:@"venues/search"
        parameters:params
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
