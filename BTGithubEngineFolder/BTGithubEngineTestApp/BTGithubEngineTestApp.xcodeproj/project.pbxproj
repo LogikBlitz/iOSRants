@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82AF56291761AE0500FC940A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF56281761AE0500FC940A /* Cocoa.framework */; };
+		82AF56331761AE0500FC940A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AF56311761AE0500FC940A /* InfoPlist.strings */; };
+		82AF56351761AE0500FC940A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF56341761AE0500FC940A /* main.m */; };
+		82AF56391761AE0500FC940A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 82AF56371761AE0500FC940A /* Credits.rtf */; };
+		82AF563C1761AE0500FC940A /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF563B1761AE0500FC940A /* BTAppDelegate.m */; };
+		82AF563F1761AE0500FC940A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82AF563D1761AE0500FC940A /* MainMenu.xib */; };
+		82B5FE011762544000D75994 /* BTGitHubEngine.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8246D0691761B15600FB23A8 /* BTGitHubEngine.framework */; };
+		82B5FE04176254DB00D75994 /* BTGitHubEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8246D0691761B15600FB23A8 /* BTGitHubEngine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8246D0681761B15600FB23A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D8D9371761AFF4002AB5FF /* BTGitHubEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82AF56041761ADB600FC940A;
+			remoteInfo = BTGitHubEngine;
+		};
+		8246D06A1761B15A00FB23A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D8D9371761AFF4002AB5FF /* BTGitHubEngine.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 82AF56031761ADB600FC940A;
+			remoteInfo = BTGitHubEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82AF56251761AE0500FC940A /* BTGithubEngineTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTGithubEngineTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF56281761AE0500FC940A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82AF562B1761AE0500FC940A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82AF562C1761AE0500FC940A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82AF562D1761AE0500FC940A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82AF56301761AE0500FC940A /* BTGithubEngineTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTGithubEngineTestApp-Info.plist"; sourceTree = "<group>"; };
+		82AF56321761AE0500FC940A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82AF56341761AE0500FC940A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82AF56361761AE0500FC940A /* BTGithubEngineTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTGithubEngineTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		82AF56381761AE0500FC940A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		82AF563A1761AE0500FC940A /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		82AF563B1761AE0500FC940A /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		82AF563E1761AE0500FC940A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		82B5FE021762545200D75994 /* BTGitHubEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BTGitHubEngine.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/BTGithubEngineWorkspace-glyllzsgwiolhpepugbcnlcwwsnr/Build/Products/Debug/BTGitHubEngine.framework"; sourceTree = "<group>"; };
+		82D8D9371761AFF4002AB5FF /* BTGitHubEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BTGitHubEngine.xcodeproj; path = ../BTGitHubEngine/BTGitHubEngine.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AF56221761AE0500FC940A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B5FE04176254DB00D75994 /* BTGitHubEngine.framework in Frameworks */,
+				82AF56291761AE0500FC940A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8246D0651761B15600FB23A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8246D0691761B15600FB23A8 /* BTGitHubEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AF561C1761AE0500FC940A = {
+			isa = PBXGroup;
+			children = (
+				82AF562E1761AE0500FC940A /* BTGithubEngineTestApp */,
+				82AF56271761AE0500FC940A /* Frameworks */,
+				82AF56261761AE0500FC940A /* Products */,
+				82D8D9371761AFF4002AB5FF /* BTGitHubEngine.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		82AF56261761AE0500FC940A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AF56251761AE0500FC940A /* BTGithubEngineTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AF56271761AE0500FC940A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B5FE021762545200D75994 /* BTGitHubEngine.framework */,
+				82AF56281761AE0500FC940A /* Cocoa.framework */,
+				82AF562A1761AE0500FC940A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AF562A1761AE0500FC940A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AF562B1761AE0500FC940A /* AppKit.framework */,
+				82AF562C1761AE0500FC940A /* CoreData.framework */,
+				82AF562D1761AE0500FC940A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82AF562E1761AE0500FC940A /* BTGithubEngineTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				82AF563A1761AE0500FC940A /* BTAppDelegate.h */,
+				82AF563B1761AE0500FC940A /* BTAppDelegate.m */,
+				82AF563D1761AE0500FC940A /* MainMenu.xib */,
+				82AF562F1761AE0500FC940A /* Supporting Files */,
+			);
+			path = BTGithubEngineTestApp;
+			sourceTree = "<group>";
+		};
+		82AF562F1761AE0500FC940A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AF56301761AE0500FC940A /* BTGithubEngineTestApp-Info.plist */,
+				82AF56311761AE0500FC940A /* InfoPlist.strings */,
+				82AF56341761AE0500FC940A /* main.m */,
+				82AF56361761AE0500FC940A /* BTGithubEngineTestApp-Prefix.pch */,
+				82AF56371761AE0500FC940A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82AF56241761AE0500FC940A /* BTGithubEngineTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AF56421761AE0500FC940A /* Build configuration list for PBXNativeTarget "BTGithubEngineTestApp" */;
+			buildPhases = (
+				82AF56211761AE0500FC940A /* Sources */,
+				82AF56221761AE0500FC940A /* Frameworks */,
+				82AF56231761AE0500FC940A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8246D06B1761B15A00FB23A8 /* PBXTargetDependency */,
+			);
+			name = BTGithubEngineTestApp;
+			productName = BTGithubEngineTestApp;
+			productReference = 82AF56251761AE0500FC940A /* BTGithubEngineTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AF561D1761AE0500FC940A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thomas Blitz";
+			};
+			buildConfigurationList = 82AF56201761AE0500FC940A /* Build configuration list for PBXProject "BTGithubEngineTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82AF561C1761AE0500FC940A;
+			productRefGroup = 82AF56261761AE0500FC940A /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8246D0651761B15600FB23A8 /* Products */;
+					ProjectRef = 82D8D9371761AFF4002AB5FF /* BTGitHubEngine.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				82AF56241761AE0500FC940A /* BTGithubEngineTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8246D0691761B15600FB23A8 /* BTGitHubEngine.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BTGitHubEngine.framework;
+			remoteRef = 8246D0681761B15600FB23A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AF56231761AE0500FC940A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF56331761AE0500FC940A /* InfoPlist.strings in Resources */,
+				82AF56391761AE0500FC940A /* Credits.rtf in Resources */,
+				82AF563F1761AE0500FC940A /* MainMenu.xib in Resources */,
+				82B5FE011762544000D75994 /* BTGitHubEngine.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AF56211761AE0500FC940A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF56351761AE0500FC940A /* main.m in Sources */,
+				82AF563C1761AE0500FC940A /* BTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8246D06B1761B15A00FB23A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTGitHubEngine;
+			targetProxy = 8246D06A1761B15A00FB23A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82AF56311761AE0500FC940A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF56321761AE0500FC940A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82AF56371761AE0500FC940A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF56381761AE0500FC940A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		82AF563D1761AE0500FC940A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF563E1761AE0500FC940A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AF56401761AE0500FC940A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82AF56411761AE0500FC940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82AF56431761AE0500FC940A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/BTGithubEngineWorkspace-glyllzsgwiolhpepugbcnlcwwsnr/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGithubEngineTestApp/BTGithubEngineTestApp-Prefix.pch";
+				INFOPLIST_FILE = "BTGithubEngineTestApp/BTGithubEngineTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82AF56441761AE0500FC940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../../Library/Developer/Xcode/DerivedData/BTGithubEngineWorkspace-glyllzsgwiolhpepugbcnlcwwsnr/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGithubEngineTestApp/BTGithubEngineTestApp-Prefix.pch";
+				INFOPLIST_FILE = "BTGithubEngineTestApp/BTGithubEngineTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AF56201761AE0500FC940A /* Build configuration list for PBXProject "BTGithubEngineTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF56401761AE0500FC940A /* Debug */,
+				82AF56411761AE0500FC940A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AF56421761AE0500FC940A /* Build configuration list for PBXNativeTarget "BTGithubEngineTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF56431761AE0500FC940A /* Debug */,
+				82AF56441761AE0500FC940A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AF561D1761AE0500FC940A /* Project object */;
+}

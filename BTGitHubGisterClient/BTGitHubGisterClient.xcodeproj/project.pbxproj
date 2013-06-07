@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B5FE8C1762679900D75994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B5FE8B1762679900D75994 /* Foundation.framework */; };
+		82B5FE8F1762679900D75994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B5FE8E1762679900D75994 /* main.m */; };
+		82B5FE931762679900D75994 /* BTGitHubGisterClient.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82B5FE921762679900D75994 /* BTGitHubGisterClient.1 */; };
+		82B5FE9B176267BF00D75994 /* BTGitHubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B5FE9A176267BF00D75994 /* BTGitHubEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82B5FE861762679900D75994 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				82B5FE931762679900D75994 /* BTGitHubGisterClient.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82B5FE881762679900D75994 /* BTGitHubGisterClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BTGitHubGisterClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B5FE8B1762679900D75994 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82B5FE8E1762679900D75994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82B5FE911762679900D75994 /* BTGitHubGisterClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTGitHubGisterClient-Prefix.pch"; sourceTree = "<group>"; };
+		82B5FE921762679900D75994 /* BTGitHubGisterClient.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BTGitHubGisterClient.1; sourceTree = "<group>"; };
+		82B5FE99176267BF00D75994 /* BTGitHubEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTGitHubEngine.h; sourceTree = "<group>"; };
+		82B5FE9A176267BF00D75994 /* BTGitHubEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTGitHubEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B5FE851762679900D75994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B5FE8C1762679900D75994 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B5FE7F1762679900D75994 = {
+			isa = PBXGroup;
+			children = (
+				82B5FE8D1762679900D75994 /* BTGitHubGisterClient */,
+				82B5FE8A1762679900D75994 /* Frameworks */,
+				82B5FE891762679900D75994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B5FE891762679900D75994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B5FE881762679900D75994 /* BTGitHubGisterClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B5FE8A1762679900D75994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B5FE8B1762679900D75994 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82B5FE8D1762679900D75994 /* BTGitHubGisterClient */ = {
+			isa = PBXGroup;
+			children = (
+				82B5FE8E1762679900D75994 /* main.m */,
+				82B5FE921762679900D75994 /* BTGitHubGisterClient.1 */,
+				82B5FE901762679900D75994 /* Supporting Files */,
+				82B5FE99176267BF00D75994 /* BTGitHubEngine.h */,
+				82B5FE9A176267BF00D75994 /* BTGitHubEngine.m */,
+			);
+			path = BTGitHubGisterClient;
+			sourceTree = "<group>";
+		};
+		82B5FE901762679900D75994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82B5FE911762679900D75994 /* BTGitHubGisterClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B5FE871762679900D75994 /* BTGitHubGisterClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B5FE961762679900D75994 /* Build configuration list for PBXNativeTarget "BTGitHubGisterClient" */;
+			buildPhases = (
+				82B5FE841762679900D75994 /* Sources */,
+				82B5FE851762679900D75994 /* Frameworks */,
+				82B5FE861762679900D75994 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTGitHubGisterClient;
+			productName = BTGitHubGisterClient;
+			productReference = 82B5FE881762679900D75994 /* BTGitHubGisterClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B5FE801762679900D75994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thomas Blitz";
+			};
+			buildConfigurationList = 82B5FE831762679900D75994 /* Build configuration list for PBXProject "BTGitHubGisterClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82B5FE7F1762679900D75994;
+			productRefGroup = 82B5FE891762679900D75994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B5FE871762679900D75994 /* BTGitHubGisterClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B5FE841762679900D75994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B5FE8F1762679900D75994 /* main.m in Sources */,
+				82B5FE9B176267BF00D75994 /* BTGitHubEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82B5FE941762679900D75994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82B5FE951762679900D75994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82B5FE971762679900D75994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGitHubGisterClient/BTGitHubGisterClient-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82B5FE981762679900D75994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGitHubGisterClient/BTGitHubGisterClient-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B5FE831762679900D75994 /* Build configuration list for PBXProject "BTGitHubGisterClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B5FE941762679900D75994 /* Debug */,
+				82B5FE951762679900D75994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B5FE961762679900D75994 /* Build configuration list for PBXNativeTarget "BTGitHubGisterClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B5FE971762679900D75994 /* Debug */,
+				82B5FE981762679900D75994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B5FE801762679900D75994 /* Project object */;
+}

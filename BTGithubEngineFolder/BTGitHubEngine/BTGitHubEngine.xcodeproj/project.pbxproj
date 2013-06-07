@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8246D06D1761B35D00FB23A8 /* UAGithubEngineRequestTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D06C1761B35D00FB23A8 /* UAGithubEngineRequestTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D0721761B47B00FB23A8 /* UAGithubJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D06E1761B47B00FB23A8 /* UAGithubJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D0731761B47B00FB23A8 /* UAGithubJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D06F1761B47B00FB23A8 /* UAGithubJSONParser.m */; };
+		8246D0741761B47B00FB23A8 /* UAGithubURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D0701761B47B00FB23A8 /* UAGithubURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D0751761B47B00FB23A8 /* UAGithubURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D0711761B47B00FB23A8 /* UAGithubURLConnection.m */; };
+		8246D0781761B57800FB23A8 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D0761761B57800FB23A8 /* NSString+UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D0791761B57800FB23A8 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D0771761B57800FB23A8 /* NSString+UUID.m */; };
+		8246D07C1762482B00FB23A8 /* NSArray+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D07A1762482A00FB23A8 /* NSArray+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D07D1762482B00FB23A8 /* NSArray+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D07B1762482B00FB23A8 /* NSArray+Utilities.m */; };
+		8246D0801762485800FB23A8 /* NSString+UAGithubEngineUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D07E1762485800FB23A8 /* NSString+UAGithubEngineUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D0811762485800FB23A8 /* NSString+UAGithubEngineUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D07F1762485800FB23A8 /* NSString+UAGithubEngineUtilities.m */; };
+		8246D0841762491F00FB23A8 /* UAGithubEngineConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D0821762491F00FB23A8 /* UAGithubEngineConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D0851762491F00FB23A8 /* UAGithubEngineConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D0831762491F00FB23A8 /* UAGithubEngineConstants.m */; };
+		8246D08C17624BD600FB23A8 /* NSInvocation+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D08A17624BD600FB23A8 /* NSInvocation+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D08D17624BD600FB23A8 /* NSInvocation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D08B17624BD600FB23A8 /* NSInvocation+Blocks.m */; };
+		8246D09017624C3E00FB23A8 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D08E17624C3E00FB23A8 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D09117624C3E00FB23A8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D08F17624C3E00FB23A8 /* NSData+Base64.m */; };
+		8246D09417624E7400FB23A8 /* UAReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246D09217624E7400FB23A8 /* UAReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8246D09517624E7400FB23A8 /* UAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8246D09317624E7400FB23A8 /* UAReachability.m */; };
+		8246D09717624FA800FB23A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8246D09617624FA800FB23A8 /* SystemConfiguration.framework */; };
+		8246D0981762508B00FB23A8 /* BTGitHubEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 82AF56141761ADB600FC940A /* BTGitHubEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82AF56081761ADB600FC940A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AF56071761ADB600FC940A /* Cocoa.framework */; };
+		82AF56121761ADB600FC940A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82AF56101761ADB600FC940A /* InfoPlist.strings */; };
+		82AF56161761ADB600FC940A /* BTGitHubEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 82AF56151761ADB600FC940A /* BTGitHubEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8246D06C1761B35D00FB23A8 /* UAGithubEngineRequestTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineRequestTypes.h; sourceTree = "<group>"; };
+		8246D06E1761B47B00FB23A8 /* UAGithubJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubJSONParser.h; sourceTree = "<group>"; };
+		8246D06F1761B47B00FB23A8 /* UAGithubJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubJSONParser.m; sourceTree = "<group>"; };
+		8246D0701761B47B00FB23A8 /* UAGithubURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubURLConnection.h; sourceTree = "<group>"; };
+		8246D0711761B47B00FB23A8 /* UAGithubURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubURLConnection.m; sourceTree = "<group>"; };
+		8246D0761761B57800FB23A8 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		8246D0771761B57800FB23A8 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		8246D07A1762482A00FB23A8 /* NSArray+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utilities.h"; sourceTree = "<group>"; };
+		8246D07B1762482B00FB23A8 /* NSArray+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utilities.m"; sourceTree = "<group>"; };
+		8246D07E1762485800FB23A8 /* NSString+UAGithubEngineUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UAGithubEngineUtilities.h"; sourceTree = "<group>"; };
+		8246D07F1762485800FB23A8 /* NSString+UAGithubEngineUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UAGithubEngineUtilities.m"; sourceTree = "<group>"; };
+		8246D0821762491F00FB23A8 /* UAGithubEngineConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAGithubEngineConstants.h; sourceTree = "<group>"; };
+		8246D0831762491F00FB23A8 /* UAGithubEngineConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAGithubEngineConstants.m; sourceTree = "<group>"; };
+		8246D08A17624BD600FB23A8 /* NSInvocation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+Blocks.h"; sourceTree = "<group>"; };
+		8246D08B17624BD600FB23A8 /* NSInvocation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+Blocks.m"; sourceTree = "<group>"; };
+		8246D08E17624C3E00FB23A8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		8246D08F17624C3E00FB23A8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		8246D09217624E7400FB23A8 /* UAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UAReachability.h; sourceTree = "<group>"; };
+		8246D09317624E7400FB23A8 /* UAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAReachability.m; sourceTree = "<group>"; };
+		8246D09617624FA800FB23A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		82AF56041761ADB600FC940A /* BTGitHubEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTGitHubEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82AF56071761ADB600FC940A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82AF560A1761ADB600FC940A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82AF560B1761ADB600FC940A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82AF560C1761ADB600FC940A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82AF560F1761ADB600FC940A /* BTGitHubEngine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTGitHubEngine-Info.plist"; sourceTree = "<group>"; };
+		82AF56111761ADB600FC940A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82AF56131761ADB600FC940A /* BTGitHubEngine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTGitHubEngine-Prefix.pch"; sourceTree = "<group>"; };
+		82AF56141761ADB600FC940A /* BTGitHubEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTGitHubEngine.h; sourceTree = "<group>"; };
+		82AF56151761ADB600FC940A /* BTGitHubEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTGitHubEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82AF56001761ADB600FC940A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8246D09717624FA800FB23A8 /* SystemConfiguration.framework in Frameworks */,
+				82AF56081761ADB600FC940A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AF55FA1761ADB600FC940A = {
+			isa = PBXGroup;
+			children = (
+				82AF560D1761ADB600FC940A /* BTGitHubEngine */,
+				82AF56061761ADB600FC940A /* Frameworks */,
+				82AF56051761ADB600FC940A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82AF56051761ADB600FC940A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82AF56041761ADB600FC940A /* BTGitHubEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82AF56061761ADB600FC940A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82AF56071761ADB600FC940A /* Cocoa.framework */,
+				82AF56091761ADB600FC940A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AF56091761ADB600FC940A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8246D09617624FA800FB23A8 /* SystemConfiguration.framework */,
+				82AF560A1761ADB600FC940A /* AppKit.framework */,
+				82AF560B1761ADB600FC940A /* CoreData.framework */,
+				82AF560C1761ADB600FC940A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82AF560D1761ADB600FC940A /* BTGitHubEngine */ = {
+			isa = PBXGroup;
+			children = (
+				8246D09217624E7400FB23A8 /* UAReachability.h */,
+				8246D09317624E7400FB23A8 /* UAReachability.m */,
+				8246D08E17624C3E00FB23A8 /* NSData+Base64.h */,
+				8246D08F17624C3E00FB23A8 /* NSData+Base64.m */,
+				8246D08A17624BD600FB23A8 /* NSInvocation+Blocks.h */,
+				8246D08B17624BD600FB23A8 /* NSInvocation+Blocks.m */,
+				8246D0821762491F00FB23A8 /* UAGithubEngineConstants.h */,
+				8246D0831762491F00FB23A8 /* UAGithubEngineConstants.m */,
+				8246D07E1762485800FB23A8 /* NSString+UAGithubEngineUtilities.h */,
+				8246D07F1762485800FB23A8 /* NSString+UAGithubEngineUtilities.m */,
+				8246D07A1762482A00FB23A8 /* NSArray+Utilities.h */,
+				8246D07B1762482B00FB23A8 /* NSArray+Utilities.m */,
+				8246D0761761B57800FB23A8 /* NSString+UUID.h */,
+				8246D0771761B57800FB23A8 /* NSString+UUID.m */,
+				8246D06E1761B47B00FB23A8 /* UAGithubJSONParser.h */,
+				8246D06F1761B47B00FB23A8 /* UAGithubJSONParser.m */,
+				8246D0701761B47B00FB23A8 /* UAGithubURLConnection.h */,
+				8246D0711761B47B00FB23A8 /* UAGithubURLConnection.m */,
+				8246D06C1761B35D00FB23A8 /* UAGithubEngineRequestTypes.h */,
+				82AF56141761ADB600FC940A /* BTGitHubEngine.h */,
+				82AF56151761ADB600FC940A /* BTGitHubEngine.m */,
+				82AF560E1761ADB600FC940A /* Supporting Files */,
+			);
+			path = BTGitHubEngine;
+			sourceTree = "<group>";
+		};
+		82AF560E1761ADB600FC940A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82AF560F1761ADB600FC940A /* BTGitHubEngine-Info.plist */,
+				82AF56101761ADB600FC940A /* InfoPlist.strings */,
+				82AF56131761ADB600FC940A /* BTGitHubEngine-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82AF56011761ADB600FC940A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8246D0981762508B00FB23A8 /* BTGitHubEngine.h in Headers */,
+				8246D06D1761B35D00FB23A8 /* UAGithubEngineRequestTypes.h in Headers */,
+				8246D0721761B47B00FB23A8 /* UAGithubJSONParser.h in Headers */,
+				8246D0741761B47B00FB23A8 /* UAGithubURLConnection.h in Headers */,
+				8246D0781761B57800FB23A8 /* NSString+UUID.h in Headers */,
+				8246D07C1762482B00FB23A8 /* NSArray+Utilities.h in Headers */,
+				8246D0801762485800FB23A8 /* NSString+UAGithubEngineUtilities.h in Headers */,
+				8246D0841762491F00FB23A8 /* UAGithubEngineConstants.h in Headers */,
+				8246D08C17624BD600FB23A8 /* NSInvocation+Blocks.h in Headers */,
+				8246D09017624C3E00FB23A8 /* NSData+Base64.h in Headers */,
+				8246D09417624E7400FB23A8 /* UAReachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82AF56031761ADB600FC940A /* BTGitHubEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82AF56191761ADB600FC940A /* Build configuration list for PBXNativeTarget "BTGitHubEngine" */;
+			buildPhases = (
+				82AF55FF1761ADB600FC940A /* Sources */,
+				82AF56001761ADB600FC940A /* Frameworks */,
+				82AF56011761ADB600FC940A /* Headers */,
+				82AF56021761ADB600FC940A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTGitHubEngine;
+			productName = BTGitHubEngine;
+			productReference = 82AF56041761ADB600FC940A /* BTGitHubEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82AF55FB1761ADB600FC940A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thomas Blitz";
+			};
+			buildConfigurationList = 82AF55FE1761ADB600FC940A /* Build configuration list for PBXProject "BTGitHubEngine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82AF55FA1761ADB600FC940A;
+			productRefGroup = 82AF56051761ADB600FC940A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82AF56031761ADB600FC940A /* BTGitHubEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82AF56021761ADB600FC940A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF56121761ADB600FC940A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82AF55FF1761ADB600FC940A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82AF56161761ADB600FC940A /* BTGitHubEngine.m in Sources */,
+				8246D0731761B47B00FB23A8 /* UAGithubJSONParser.m in Sources */,
+				8246D0751761B47B00FB23A8 /* UAGithubURLConnection.m in Sources */,
+				8246D0791761B57800FB23A8 /* NSString+UUID.m in Sources */,
+				8246D07D1762482B00FB23A8 /* NSArray+Utilities.m in Sources */,
+				8246D0811762485800FB23A8 /* NSString+UAGithubEngineUtilities.m in Sources */,
+				8246D0851762491F00FB23A8 /* UAGithubEngineConstants.m in Sources */,
+				8246D08D17624BD600FB23A8 /* NSInvocation+Blocks.m in Sources */,
+				8246D09117624C3E00FB23A8 /* NSData+Base64.m in Sources */,
+				8246D09517624E7400FB23A8 /* UAReachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82AF56101761ADB600FC940A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82AF56111761ADB600FC940A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82AF56171761ADB600FC940A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82AF56181761ADB600FC940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82AF561A1761ADB600FC940A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGitHubEngine/BTGitHubEngine-Prefix.pch";
+				INFOPLIST_FILE = "BTGitHubEngine/BTGitHubEngine-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		82AF561B1761ADB600FC940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGitHubEngine/BTGitHubEngine-Prefix.pch";
+				INFOPLIST_FILE = "BTGitHubEngine/BTGitHubEngine-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82AF55FE1761ADB600FC940A /* Build configuration list for PBXProject "BTGitHubEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF56171761ADB600FC940A /* Debug */,
+				82AF56181761ADB600FC940A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82AF56191761ADB600FC940A /* Build configuration list for PBXNativeTarget "BTGitHubEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82AF561A1761ADB600FC940A /* Debug */,
+				82AF561B1761ADB600FC940A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82AF55FB1761ADB600FC940A /* Project object */;
+}

@@ -58,7 +58,7 @@ typedef void (^ActionBlock)();
         UIImage *image = [[UIImage alloc] initWithData:imageData];
         NSLog(@"Image size: %@", NSStringFromCGSize(image.size));
         [self resizeImage:image toWidth:self.view.frame.size.width completionBlock:completion];
-    });
+        });
 
 }
 
